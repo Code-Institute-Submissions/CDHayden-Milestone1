@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700|Roboto:400,700|Trirong&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Archivo:400,700|Roboto:400,700|Montserrat:400&display=swap');
 
 body
 {
@@ -7,12 +7,12 @@ body
 
 h1,h2,h3
 {
-    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Archivo', sans-serif;
 }
 
 h4,h5,h6
 {
-    font-family: 'Trirong', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .jumbotron
 {
