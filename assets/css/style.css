@@ -1,16 +1,65 @@
-@import url('https://fonts.googleapis.com/css?family=Archivo:400,700|Roboto:400,700|Montserrat:400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Archivo:400,700|Roboto:400,700|Montserrat:400,700&display=swap');
+html {
+    font-size: 100%;
+}
+
 body {
     font-family: 'roboto', sans-serif;
 }
+
+/* ------------------------------------------ H TAGS */
+
+h1, h2, h3, h4 {
+    font-family: 'Archivo', sans-serif;
+}
+
+h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ------------------SPECIAL MARGINS - HEADERS - TEXT */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.spaced {
+    letter-spacing: 0.2rem;w
+}
+
+/* ------------------------------------------ COLOURS */
 
 /* ------------------------------------------ HEADER */
 
 .jumbotron {
     margin: 0;
+    /* background-color: #e9ecef; */
+    /* background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23343a40' fill-opacity='0.10' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E"); */
 }
 
-.logo, .companyName, .slogan {
+.companyName, .slogan, .contactDetails {
     text-align: center;
+}
+
+.companyName {
+    margin-bottom: 1.071rem;
+}
+
+.slogan {
+    margin-bottom: 1.071rem;
+    font-weight: 700;
+}
+
+.contactDetails i {
+    font-size: 1.3rem;
+    margin-right: 0.5rem;
+}
+
+.logo {
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 10.71rem;
 }
 
 /* ------------------------------------------ CAROUSEL */
@@ -37,14 +86,4 @@ body {
 footer {
     background-color: #343a40;
     height: 3.571rem;
-}
-
-/* ------------------------------------------ HEADINGS */
-
-h1, h2, h3 {
-    font-family: 'Archivo', sans-serif;
-}
-
-h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
 }
