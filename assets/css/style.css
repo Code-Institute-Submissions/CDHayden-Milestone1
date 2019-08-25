@@ -7,6 +7,18 @@ body {
     font-family: 'roboto', sans-serif;
 }
 
+/* ------------------SPECIAL MARGINS - HEADERS - TEXT */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.spaced {
+    letter-spacing: 0.2rem;
+}
+
+/* ----------------------------------------- COLOURS */
+
 /* ------------------------------------------ H TAGS */
 
 h1, h2, h3, h4 {
@@ -16,19 +28,6 @@ h1, h2, h3, h4 {
 h5, h6 {
     font-family: 'Montserrat', sans-serif;
 }
-
-/* ------------------SPECIAL MARGINS - HEADERS - TEXT */
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.spaced {
-    letter-spacing: 0.2rem;
-    w
-}
-
-/* ------------------------------------------ COLOURS */
 
 /* ------------------------------------------ HEADER */
 
@@ -43,7 +42,17 @@ h5, h6 {
 }
 
 .companyName {
+    display: inline-block;
+    vertical-align: middle;
     margin-bottom: 1.143rem;
+}
+
+@media(min-width: 768px) {
+    .companyName {
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: left;
+    }
 }
 
 .slogan {
@@ -56,11 +65,16 @@ h5, h6 {
     margin-right: 0.5rem;
 }
 
-.logo {
-    background-image: url("../images/logo.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 10.71rem;
+.logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(min-width: 768px) {
+    .logo img {
+        margin-right: 0;
+    }
 }
 
 /* ------------------------------------------ CAROUSEL */
@@ -90,8 +104,9 @@ h5, h6 {
 }
 
 /* Make sure the tagline doesn't overflow out of the div */
+
 @media(min-width: 992px) {
-    #tagLine h4{
+    #tagLine h4 {
         padding-top: 1.5em;
         font-size: 2em;
     }
