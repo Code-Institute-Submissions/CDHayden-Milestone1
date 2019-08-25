@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo:400,700|Roboto:400,700|Montserrat:400,700&display=swap');
-
-
 html {
     font-size: 100%;
 }
@@ -67,7 +65,7 @@ h5, h6 {
 
 /* ------------------------------------------ CAROUSEL */
 
-#carouselWrapper {
+.relativeWrapper {
     position: relative;
     width: 100%;
     height: 100%;
@@ -82,14 +80,28 @@ h5, h6 {
     top: 0;
     left: 40%;
     z-index: 10;
+    text-align: center;
+}
+
+#tagLine h4 {
+    padding-top: 1em;
+    /* Use em to scale with parent element rather than root */
+    font-size: 1.5em;
+}
+
+/* Make sure the tagline doesn't overflow out of the div */
+@media(min-width: 992px) {
+    #tagLine h4{
+        padding-top: 1.5em;
+        font-size: 2em;
+    }
 }
 
 /* ------------------------------------------ SECTION */
-.main-content
-{
+
+.main-content {
     padding: 2rem;
 }
-
 
 /* ------------------------------------------ FOOTER */
 
