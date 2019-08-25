@@ -37,6 +37,7 @@ h5, h6 {
 .jumbotron {
     margin: 0;
     background-color: #e9ecef;
+    padding: 0.5rem 0.5rem 2rem 0.5rem;
 }
 
 .companyName, .slogan, .contactDetails {
