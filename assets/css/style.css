@@ -94,10 +94,11 @@ h5, h6 {
 
 footer {
     background-color: #343a40;
-    height: 3.571rem;
+    height: 5rem;
 }
 
 footer i {
     color: #ffffff;
     font-size: 2rem;
+    padding-top: 0.3rem;
 }
