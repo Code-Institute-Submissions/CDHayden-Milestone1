@@ -77,24 +77,35 @@ h5, h6 {
 
 /* Negative margin to prevent any whitespace between these two items
 in the header */
+
 .no-bottom-border {
     margin-bottom: -0.07143rem;
-    background-color: #414039;
-    color: #E4E5E9;
+    background-color: #E4E5E9;
+    color: #171726;
+    border-radius: 2.571rem 2.571rem 0 0;
     border-top: 0.1429rem solid #9E8956;
-    border-bottom: 0.1429rem solid #414039;
+    border-bottom: none;
     border-left: 0.1429rem solid #9E8956;
     border-right: 0.1429rem solid #9E8956;
+    /* Box shadow code taken from https://www.cssmatic.com/box-shadow */
+    -webkit-box-shadow: inset 0px 24px 41px -13px rgba(23, 23, 38, 1);
+    -moz-box-shadow: inset 0px 24px 41px -13px rgba(23, 23, 38, 1);
+    box-shadow: inset 0px 24px 41px -13px rgba(23, 23, 38, 1);
 }
 
 .no-top-border {
     margin-top: -0.07143rem;
-    background-color: #414039;
-    color: #E4E5E9;
-    border-top: 0.1429rem solid #414039;
+    background-color: #E4E5E9;
+    color: #171726;
+    border-radius: 0 0 2.571rem 2.571rem;
+    border-top: none;
     border-bottom: 0.1429rem solid #9E8956;
     border-left: 0.1429rem solid #9E8956;
     border-right: 0.1429rem solid #9E8956;
+    /* Box shadow code taken from https://www.cssmatic.com/box-shadow */
+    -webkit-box-shadow: inset 0px -24px 41px -13px rgba(23, 23, 38, 1);
+    -moz-box-shadow: inset 0px -24px 41px -13px rgba(23, 23, 38, 1);
+    box-shadow: inset 0px -24px 41px -13px rgba(23, 23, 38, 1);
 }
 
 .no-bottom-border>h4 {
@@ -130,8 +141,16 @@ in the header */
     color: #E4E5E9;
 }
 
-.navbar-nav>a {
+.navbar-nav .nav-link {
     color: #E4E5E9;
+    font-weight: 700;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.nav-item:hover .nav-link {
+    color: #9E8956;
 }
 
 .dropdown-toggle, .dropdown-toggle:hover {
