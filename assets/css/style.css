@@ -75,19 +75,23 @@ h5, h6 {
     margin-right: 0.5rem;
 }
 
+/* Negative margin to prevent any whitespace between these two items
+in the header */
 .no-bottom-border {
-    margin: 0;
+    margin-bottom: -0.07143rem;
     background-color: #414039;
     color: #E4E5E9;
     border-top: 0.1429rem solid #9E8956;
+    border-bottom: 0.1429rem solid #414039;
     border-left: 0.1429rem solid #9E8956;
     border-right: 0.1429rem solid #9E8956;
 }
 
 .no-top-border {
-    margin: 0;
+    margin-top: -0.07143rem;
     background-color: #414039;
     color: #E4E5E9;
+    border-top: 0.1429rem solid #414039;
     border-bottom: 0.1429rem solid #9E8956;
     border-left: 0.1429rem solid #9E8956;
     border-right: 0.1429rem solid #9E8956;
