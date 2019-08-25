@@ -87,3 +87,8 @@ footer {
     background-color: #343a40;
     height: 3.571rem;
 }
+
+footer i {
+    color: #ffffff;
+    font-size: 2rem;
+}
