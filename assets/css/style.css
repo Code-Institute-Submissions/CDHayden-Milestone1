@@ -5,6 +5,8 @@ html {
 
 body {
     font-family: 'roboto', sans-serif;
+    color: #171726;
+    background-color: #E4E5E9;
 }
 
 /* ------------------SPECIAL MARGINS - HEADERS - TEXT */
@@ -33,7 +35,7 @@ h5, h6 {
 
 .jumbotron {
     margin: 0;
-    background-color: #e9ecef;
+    background-color: #E4E5E9;
     padding: 0.5rem 0.5rem 2rem 0.5rem;
 }
 
@@ -60,7 +62,12 @@ h5, h6 {
     font-weight: 700;
 }
 
+.contactDetails {
+    color: #171726;
+}
+
 .contactDetails i {
+    color: #9E8956;
     font-size: 1.3rem;
     margin-right: 0.5rem;
 }
@@ -75,6 +82,49 @@ h5, h6 {
     .logo img {
         margin-right: 0;
     }
+}
+
+.headerBreak {
+    height: 0.1rem;
+    width: 30%;
+    background-color: #9E8956;
+}
+
+/* ------------------------------------------ NAV BAR  */
+
+.navbar {
+    background-color: #171726;
+    color: #E4E5E9;
+}
+
+.navbar-nav>a {
+    color: #E4E5E9;
+}
+
+.dropdown-toggle, .dropdown-toggle:hover
+{
+    color: #E4E5E9;
+}
+
+
+.dropdown-menu {
+    background-color: #E4E5E9;
+}
+
+.dropdown-item {
+    color: #171726;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #E4E5E9;
+    background-color: #171726;
+    text-decoration: underline;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #E4E5E9;
+    background-color: #171726;
+    text-decoration: none;
 }
 
 /* ------------------------------------------ CAROUSEL */
