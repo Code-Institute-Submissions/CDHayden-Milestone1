@@ -101,6 +101,7 @@ h5, h6 {
     color: #E4E5E9;
 }
 
+
 .dropdown-toggle, .dropdown-toggle:hover
 {
     color: #E4E5E9;
@@ -171,12 +172,14 @@ h5, h6 {
 /* ------------------------------------------ FOOTER */
 
 footer {
-    background-color: #343a40;
+    background-color:#171726;
+    color: #E4E5E9;
     height: 5rem;
 }
 
 footer i {
-    color: #ffffff;
+    color: #9E8956;
     font-size: 2rem;
     padding-top: 0.3rem;
 }
+
