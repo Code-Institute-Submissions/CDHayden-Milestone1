@@ -10,7 +10,7 @@ body {
     /* Change main-content bg colour, not this colour */
 }
 
-/* ------------------SPECIAL MARGINS - HEADERS - TEXT */
+/* ------------------SPECIAL MARGINS - WRAPPERS - TEXT */
 
 .uppercase {
     text-transform: uppercase;
@@ -18,6 +18,12 @@ body {
 
 .spaced {
     letter-spacing: 0.2rem;
+}
+
+.relative-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 /* ------------------------------------------ H TAGS */
@@ -183,10 +189,9 @@ in the header */
 
 /* ------------------------------------------ CAROUSEL */
 
-.relative-wrapper {
-    position: relative;
+.carousel-inner{
+    max-height: 35vh !important;
     width: 100%;
-    height: 100%;
 }
 
 #tagLine {
