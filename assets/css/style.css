@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo:400,700|Roboto:400,700|Montserrat:400,700&display=swap');
+
+
 html {
     font-size: 100%;
 }
@@ -80,6 +82,13 @@ h5, h6 {
     left: 40%;
     z-index: 10;
 }
+
+/* ------------------------------------------ SECTION */
+.main-content
+{
+    padding: 2rem;
+}
+
 
 /* ------------------------------------------ FOOTER */
 
