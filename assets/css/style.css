@@ -229,6 +229,20 @@ in the header */
     background-color: #E4E5E9;
 }
 
+/* ------------------------------------------ CONTACT */
+.form-wrapper .btn{
+    background-color: #4A4356;
+    color: #E4E5E9;
+}
+
+.form-wrapper label{
+    color: #171726;
+}
+
+.form-wrapper label.required::after, #requiredHelp::after{
+    content: '*';
+    color: #9E000B;
+}
 /* ------------------------------------------ FOOTER */
 
 footer {
@@ -250,5 +264,4 @@ footer i {
 
 footer i:hover {
      font-size: 2.2rem;
-
 }
