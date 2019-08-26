@@ -125,50 +125,63 @@
         <!-- ./NAV BAR  -->
     </header>
 
-    <section class="container-fluid main-content">
-        <div class="row">
-            <div class="col-12">
-                <h4 class="spaced uppercase"> Send us a message </h4>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 form-wrapper">
-                <form>
-                    <fieldset class="form-group">
-                        <label class="required" for="name">Name: </label>
-                        <input type="text" name="name" id="name" placeholder="name" class="form-control" required>
-                    </fieldset>
+    <section class="main-content">
 
-                    <fieldset class="form-group">
-                        <label class="required" for="emailAddress">Email address: </label>
-                        <input type="email" name="emailAddress" id="emailAddress" placeholder="email"
-                            class="form-control" required>
-                    </fieldset>
+        <div class="form-wrapper container-fluid d-flex justify-content-center align-items-center">
+            <div class="row">
+                <div class="col">
+                    <form >
+                        <!-- HEADER -->
+                        <h4 class="spaced uppercase"> Send us a message </h4>
+                        <!-- ./HEADER -->
 
-                    <fieldset class="form-group">
-                        <label class="required" for="phoneNumber">Phone Number: </label>
-                        <input type="text" name="phoneNumber" id="phoneNumber" placeholder="phone number"
-                            class="form-control" required>
-                    </fieldset>
+                        <!-- NAME -->
+                        <fieldset class="form-group">
+                            <label class="required" aria-describedBy="requiredHelp" for="name">Name: </label>
+                            <input type="text" name="name" id="name" placeholder="name" class="form-control" required>
+                        </fieldset>
+                        <!-- ./NAME -->
 
-                    <fieldset class="form-group">
-                        <label for="address">Address:</label>
-                        <input type="text" name="address" id="address" placeholder="address" class="form-control">
-                    </fieldset>
+                        <!-- EMAIL -->
+                        <fieldset class="form-group">
+                            <label class="required" aria-describedBy="requiredHelp" for="emailAddress">Email address:
+                            </label>
+                            <input type="email" name="emailAddress" id="emailAddress" placeholder="email"
+                                class="form-control" required>
+                        </fieldset>
+                        <!-- ./EMAIL -->
 
-                    <fieldset class="form-group">
-                        <label for="message">Additional details: </label>
-                        <textarea class="form-control" id="message" rows="3" required
-                            placeholder="Your message"></textarea>
-                    </fieldset>
+                        <!-- PHONE -->
+                        <fieldset class="form-group">
+                            <label class="required" aria-describedBy="requiredHelp" for="phoneNumber">Phone Number:
+                            </label>
+                            <input type="text" name="phoneNumber" id="phoneNumber" placeholder="phone number"
+                                class="form-control" required>
+                        </fieldset>
+                        <!-- ./PHONE -->
 
-                    <fieldset class="form-group">
-                        <input class="btn" type="submit" value="Send message">
-                    </fieldset>
+                        <!-- ADDRESS -->
+                        <fieldset class="form-group">
+                            <label for="address">Address:</label>
+                            <input type="text" name="address" id="address" placeholder="address" class="form-control">
+                        </fieldset>
+                        <!-- ./ADDRESS -->
 
-                    <small id="requiredHelp"> Required fields are marked with  &nbsp;</small>
-                </form>
+                        <!-- ADDITIONAL -->
+                        <fieldset class="form-group">
+                            <label for="message">Additional details: </label>
+                            <textarea class="form-control" id="message" rows="3" required
+                                placeholder="Your message"></textarea>
+                        </fieldset>
+                        <!-- ./ADDITIONAL -->
 
+                        <fieldset class="form-group">
+                            <input class="btn" type="submit" value="Send message">
+                        </fieldset>
+                        <small class="spaced uppercase" id="requiredHelp"> Required fields are marked with
+                            &nbsp;</small>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
