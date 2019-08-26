@@ -231,16 +231,25 @@ in the header */
 
 /* ------------------------------------------ CONTACT */
 
-.form-wrapper .btn{
+.form-wrapper{
+    border: 1px solid rgba(23, 23, 38, 0.2);
+    padding: 1rem 3rem;
+}
+.form-wrapper h3 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.form-wrapper .btn {
     background-color: #4A4356;
     color: #E4E5E9;
 }
 
-.form-wrapper label{
+.form-wrapper label {
     color: #171726;
 }
 
-.form-wrapper label.required::after, #requiredHelp::after{
+.form-wrapper label.required::after, #requiredHelp::after {
     content: '*';
     color: #9E000B;
 }
@@ -265,5 +274,5 @@ footer i {
 }
 
 footer i:hover {
-     font-size: 2.2rem;
+    font-size: 2.2rem;
 }
