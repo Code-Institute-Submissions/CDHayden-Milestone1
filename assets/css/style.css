@@ -10,6 +10,12 @@ body {
     /* Change main-content bg colour, not this colour */
 }
 
+/* --------------------------------------------COLOURS */
+.darkgold{
+    background-color: #9E8956;
+}
+
+
 /* ------------------SPECIAL MARGINS - WRAPPERS - TEXT */
 
 .page-header {
@@ -192,7 +198,16 @@ in the header */
     background-color: #171726;
     text-decoration: none;
 }
+/* ------------------------------------------ REIVEWS */
+.review-container{
+}
 
+.review-thumbnail{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 1px solid #171726;
+}
 /* ------------------------------------------ CAROUSEL */
 
 .carousel-inner {
