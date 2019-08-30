@@ -72,7 +72,6 @@ h5, h6 {
     margin-bottom: 1.143rem;
 }
 
-
 .slogan {
     /* display: block; */
     margin-bottom: 1.143rem;
@@ -195,18 +194,20 @@ in the header */
 
 /* ------------------------------------------ REVIEWS */
 
-.media{
+.media {
     border: 3px double #9E8956;
     background-color: rgb(0, 0, 0, 0.1);
     padding: 1rem;
 }
-.media > img{
+
+.media>img {
     margin-right: 1rem;
 }
 
-.media-header{
+.media-header {
     font-weight: 700;
 }
+
 .blockquote::before {
     content: "\"";
 }
@@ -215,22 +216,20 @@ in the header */
     content: "\"";
 }
 
-.blockquote p{
+.blockquote p {
     display: inline;
     font-size: 1rem;
     padding: 0;
 }
 
-.rating
-{
+.rating {
     color: #9E8956;
-    background-color: rgb(23, 23, 38,0.09);
+    background-color: rgb(23, 23, 38, 0.09);
     text-align: center;
 }
 
-.rating i{
+.rating i {
     margin-right: 0.1429rem;
-    
 }
 
 /* ------------------------------------------ CAROUSEL */
@@ -286,7 +285,7 @@ in the header */
     padding-bottom: 1rem;
 }
 
-.form-wrapper .btn, .modal-footer .btn{
+.form-wrapper .btn, .modal-footer .btn {
     background-color: #4A4356;
     color: #E4E5E9;
 }
@@ -301,6 +300,23 @@ in the header */
 }
 
 /* --------------------------------------- GROUNDWORK */
+
+.text-content {
+    padding-bottom: 3rem;
+}
+
+/* Push down text content when gallery is displayed */
+@media(min-width: 768px) {
+    .text-content {
+        padding-top: 5rem;
+    }
+}
+
+.text-content p i {
+    color: #9E8956;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
 
 .gallery-img {
     opacity: 0.8;
