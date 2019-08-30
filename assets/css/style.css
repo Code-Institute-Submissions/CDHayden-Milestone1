@@ -327,11 +327,11 @@ in the header */
 
 /* Push down text content when gallery is displayed */
 
-@media(min-width: 768px) {
+/* @media(min-width: 768px) {
     .text-content {
         padding-top: 5rem;
     }
-}
+} */
 
 .text-content p i {
     color: #9E8956;
@@ -357,7 +357,6 @@ in the header */
 
 .gallery {
     padding-right: 5rem;
-    margin-bottom: 10rem;
 }
 
 .img-thumbnail {
