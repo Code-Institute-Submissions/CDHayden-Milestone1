@@ -62,21 +62,21 @@ h5, h6 {
     font-size: 2rem;
 }
 
-.company-name > h1{
+.company-name>h1 {
     text-align: center;
 }
 
-@media(min-width: 768px){
-    .company-name > h1{
+@media(min-width: 768px) {
+    .company-name>h1 {
         text-align: left;
     }
 }
 
-.company-name{
+.company-name {
     justify-content: center;
 }
 
-@media(min-width: 768px){
+@media(min-width: 768px) {
     .company-name {
         justify-content: flex-start;
     }
@@ -148,8 +148,6 @@ in the header */
 .no-top-border>h4 {
     padding-bottom: 2rem;
 }
-
-
 
 .logo img {
     display: block;
@@ -327,6 +325,7 @@ in the header */
 }
 
 /* Push down text content when gallery is displayed */
+
 @media(min-width: 768px) {
     .text-content {
         padding-top: 5rem;
