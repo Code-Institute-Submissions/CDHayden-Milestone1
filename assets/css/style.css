@@ -62,11 +62,26 @@ h5, h6 {
     font-size: 2rem;
 }
 
-@media(min-width: 567px){
-    .company-name{
-        justify-content: center;
+.company-name > h1{
+    text-align: center;
+}
+
+@media(min-width: 768px){
+    .company-name > h1{
+        text-align: left;
     }
 }
+
+.company-name{
+    justify-content: center;
+}
+
+@media(min-width: 768px){
+    .company-name {
+        justify-content: flex-start;
+    }
+}
+
 .slogan, .contact-details {
     text-align: center;
 }
