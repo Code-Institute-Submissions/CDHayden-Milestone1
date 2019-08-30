@@ -92,15 +92,20 @@ h5, h6 {
     font-weight: 700;
 }
 
-.contactDetails {
+.contact-details {
     color: #171726;
     background-color: #E4E5E9;
 }
 
-.contactDetails i {
+.contact-details i {
     color: #9E8956;
     font-size: 1.3rem;
     margin-right: 0.5rem;
+}
+
+.contact-details a, .contact-details a:hover {
+    color: #171726;
+    text-decoration: none;
 }
 
 /* Negative margin to prevent any whitespace between these two items
@@ -143,6 +148,8 @@ in the header */
 .no-top-border>h4 {
     padding-bottom: 2rem;
 }
+
+
 
 .logo img {
     display: block;
