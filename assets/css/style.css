@@ -62,14 +62,8 @@ h5, h6 {
     font-size: 2rem;
 }
 
-.company-name, .slogan, .contact-details {
+.slogan, .contact-details {
     text-align: center;
-}
-
-.company-name {
-    display: inline-block;
-    vertical-align: middle;
-    margin-bottom: 1.143rem;
 }
 
 .slogan {
