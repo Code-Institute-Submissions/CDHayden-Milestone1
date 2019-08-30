@@ -62,25 +62,19 @@ h5, h6 {
     font-size: 2rem;
 }
 
-.companyName, .slogan, .contactDetails {
+.company-name, .slogan, .contact-details {
     text-align: center;
 }
 
-.companyName {
+.company-name {
     display: inline-block;
     vertical-align: middle;
     margin-bottom: 1.143rem;
 }
 
-@media(min-width: 768px) {
-    .companyName {
-        margin-top: auto;
-        margin-bottom: auto;
-        text-align: left;
-    }
-}
 
 .slogan {
+    /* display: block; */
     margin-bottom: 1.143rem;
     font-weight: 700;
 }

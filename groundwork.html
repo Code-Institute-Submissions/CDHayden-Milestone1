@@ -28,6 +28,25 @@
         <div class="jumbotron jumbotron-fluid">
             <div class="container-fluid">
 
+                <!-- <div class="row nogutters">
+                    <div class="col-md-2 offset-md-2">
+
+                    </div>
+                    <div class="col-12 col-md-2">
+                        Logo
+                    </div>
+                    <div class="col-12 col-md-4">
+                        Company name
+                        <hr>
+                        <span class="slogan">slogan *check css slogan class*</span>
+                        contact details
+                    </div>
+                    <div class="col-md-2">
+
+                    </div>
+
+                </div> -->
+
                 <!-- ROW -->
                 <div class="row nogutters">
                     <!-- LOGO -->
@@ -40,7 +59,7 @@
 
 
                     <!-- COMPANY NAME-->
-                    <div class="col-12 col-md-8 companyName">
+                    <div class="col-12 col-md-8 company-name">
                         <h1> CH Home Improvements </h1>
                     </div>
                     <!-- ./COMPANY NAME-->
@@ -63,13 +82,13 @@
 
                 <div class="row nogutters">
                     <!-- CONTACT DETAILS -->
-                    <div class="col-12 contactDetails no-bottom-border">
+                    <div class="col-12 contact-details no-bottom-border">
                         <!-- PHONE -->
                         <h4> <i aria-hidden="true" title="Telephone number" class="fas fa-phone-alt"></i><span
                                 class="sr-only">Telephone number:</span> 555-555-555 </h4>
                     </div>
 
-                    <div class="col-12 contactDetails no-top-border">
+                    <div class="col-12 contact-details no-top-border">
                         <!-- EMAIL -->
                         <h4> <i aria-hidden="true" title="Email address" class="fas fa-envelope"></i><span
                                 class="sr-only">Email address</span> info@chhi.org</h4>
@@ -160,7 +179,7 @@
             </div>
             <!-- ./TEXT-->
 
-            <!-- GALLERY TODO: FIX d-blocks -->
+            <!-- GALLERY -->
             <div class="d-none d-md-inline col gallery">
                 <div class="row">
                     <div class="col">
@@ -181,13 +200,13 @@
                     </div>
                 </div>
                 <div class="row nogutters">
-                    <div class="d-none d-md-block col-md-6 img-container">
+                    <div class="col-md-6 img-container">
                         <a href="assets/images/garden3.jpg" target="_blank">
                             <img class="img-thumbnail img-fluid gallery-img" src="assets/images/garden3.jpg" alt="">
                         </a>
                     </div>
 
-                    <div class="d-none d-md-block col-md-6 img-container">
+                    <div class="col-md-6 img-container">
                         <a href="assets/images/garden4.jpg" target="_blank">
                             <img class="img-thumbnail img-fluid gallery-img" src="assets/images/garden4.jpg" alt="">
                         </a>
@@ -196,53 +215,60 @@
             </div>
             <!-- ./GALLERY-->
 
+            <!-- REVIEWS -->
             <div class="row">
-                <!-- REVIEWS -->
-                <div class="col-6 col-md-12">
-                    <div class="row">
-                        <div class="col-12 col-md-3 media">
-                            <img class="rounded-circle img-fluid" src="assets/images/review1.jpg" alt="">
-                            <div class="media-body">
-                                <h5 class="media-header"> Fantastic service!</h5>
-                                <blockquote class="blockquote">
-                                    <p> CH Home Improvements created my perfect garden! </p>
-                                </blockquote>
-                                <span class="rating"> <i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                        class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                        class="fas fa-star"></i></span>
-                            </div>
-                        </div>
 
-                        <div class="col-12 col-md-3 offset-md-1 media">
-                            <img class="rounded-circle img-fluid" src="assets/images/review1.jpg" alt="">
-                            <div class="media-body">
-                                <h5 class="media-header"> Fantastic service!</h5>
-                                <blockquote class="blockquote">
-                                    <p> CH Home Improvements created my perfect garden! </p>
-                                </blockquote>
-                                <span class="rating"> <i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                        class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                        class="fas fa-star"></i></span>
-                            </div>
-                        </div>
-
-                        <div class="col-12 col-md-3 media offset-md-1">
-                            <img class="rounded-circle img-fluid" src="assets/images/review1.jpg" alt="">
-                            <div class="media-body">
-                                <h5 class="media-header"> Fantastic service!</h5>
-                                <blockquote class="blockquote">
-                                    <p> CH Home Improvements created my perfect garden! </p>
-                                </blockquote>
-                                <span class="rating"> <i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                        class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                        class="fas fa-star"></i></span>
-                            </div>
-                        </div>
+                <!-- REVIEW 1-->
+                <div class="col-12 col-md-3 offset-md-1 media">
+                    <img class="d-none d-lg-block rounded-circle img-fluid" src="assets/images/review1.jpg"
+                        alt="Image of smiling female reviewer">
+                    <div class="media-body">
+                        <h5 class="media-header"> Fantastic service!</h5>
+                        <blockquote class="blockquote">
+                            <p> CH Home Improvements created my perfect garden! </p>
+                        </blockquote>
+                        <small> - Jane Doe </small>
+                        <p class="rating" aria-hidden="true"><span class="sr-only"> 5 out of 5 stars </span><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i></p>
                     </div>
                 </div>
+                <!-- ./REVIEW 1 -->
+
+                <!-- REVIEW 2 -->
+                <div class="col-12 col-md-3 media">
+                    <img class="d-none d-lg-block rounded-circle img-fluid" src="assets/images/review2.jpg"
+                        alt="Image of smiling male reviewer">
+                    <div class="media-body">
+                        <h5 class="media-header"> Stunning garden</h5>
+                        <blockquote class="blockquote">
+                            <p> I now have a stunning garden. All of my neighbours are very jealous!</p>
+                        </blockquote>
+                        <small> - John Smith </small>
+                        <p class="rating" aria-hidden="true"><span class="sr-only"> 5 out of 5 stars </span><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                    </div>
+                </div>
+                <!-- ./REVIEW 2 -->
+
+                <!-- REVIEW 3 -->
+                <div class="col-12 col-md-3 media">
+                    <img class="d-none d-lg-block rounded-circle img-fluid" src="assets/images/review1.jpg" alt="">
+                    <div class="media-body">
+                        <h5 class="media-header"> Fantastic service!</h5>
+                        <blockquote class="blockquote">
+                            <p> CH Home Improvements created my perfect garden! </p>
+                        </blockquote>
+                        <small> - Jane Doe </small>
+                        <p class="rating" aria-hidden="true"><span class="sr-only"> 5 out of 5 stars </span><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                    </div>
+                </div>
+                <!-- ./REVIEW 3 -->
             </div>
             <!-- ./REVIEWS -->
-
         </div>
         <!-- ./PAGE CONTENT-->
 
@@ -290,3 +316,10 @@
 </body>
 
 </html>
+
+<!-- TODO: FIX GRID SYSTEM, NO NEED FOR NESTED ROWS. USE MULTIPLE CONTAINERS INSTEAD. ONE FOR EACH "ROW"-->
+<!-- TODO: FIX HEADER TO USE 4 COLS, col-2 offset-1 col-2 col-4 col-2 offset-1 
+            See if new header works with content all in the same col, rather than split over different rows-->
+<!-- TODO: CHANGE companyName for company-name and contactDetails for contact-details in 
+            each page-->
+<!-- TODO: Finish readme -->
