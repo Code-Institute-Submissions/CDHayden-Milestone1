@@ -286,7 +286,7 @@ in the header */
     padding-bottom: 1rem;
 }
 
-.form-wrapper .btn {
+.form-wrapper .btn, .modal-footer .btn{
     background-color: #4A4356;
     color: #E4E5E9;
 }

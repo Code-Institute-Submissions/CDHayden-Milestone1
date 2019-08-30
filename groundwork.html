@@ -179,6 +179,7 @@
             </div>
             <!-- ./TEXT-->
 
+
             <!-- GALLERY -->
             <div class="d-none d-md-inline col gallery">
                 <div class="row">
@@ -189,31 +190,60 @@
                 </div>
                 <div class="row nogutters">
                     <div class="col-md-6 img-container">
-                        <a href="assets/images/garden1.jpg" target="_blank">
+                        <a href="#" data-toggle="modal" data-target="#galleryModal"
+                            data-image="assets/images/garden1.jpg">
                             <img class="img-thumbnail img-fluid gallery-img" src="assets/images/garden1.jpg" alt="">
                         </a>
                     </div>
                     <div class="col-md-6 img-container">
-                        <a href="assets/images/garden2.jpg" target="_blank">
+                        <a href="#" data-toggle="modal" data-target="#galleryModal"
+                            data-image="assets/images/garden2.jpg">
                             <img class="img-thumbnail img-fluid gallery-img" src="assets/images/garden2.jpg" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="row nogutters">
                     <div class="col-md-6 img-container">
-                        <a href="assets/images/garden3.jpg" target="_blank">
+                        <a href="#" data-toggle="modal" data-target="#galleryModal"
+                            data-image="assets/images/garden3.jpg">
                             <img class="img-thumbnail img-fluid gallery-img" src="assets/images/garden3.jpg" alt="">
                         </a>
                     </div>
 
                     <div class="col-md-6 img-container">
-                        <a href="assets/images/garden4.jpg" target="_blank">
+                        <a href="#" data-toggle="modal" data-target="#galleryModal"
+                            data-image="assets/images/garden4.jpg">
                             <img class="img-thumbnail img-fluid gallery-img" src="assets/images/garden4.jpg" alt="">
                         </a>
                     </div>
                 </div>
             </div>
             <!-- ./GALLERY-->
+
+            <!-- GALLERY MODAL -->
+            <div class="modal fade" id="galleryModal" tabindex="-1" role="dialog" aria-labelledby="galleryModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="egalleryModalLabel">Gallery- Image</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <span class="text-center">
+                                <img id="mainImage" src="" alt="Example of our groundwork">
+                            </span>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./GALLERY MODAL -->
+
 
             <!-- REVIEWS -->
             <div class="row">
@@ -313,6 +343,18 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
         </script>
+
+
+    <script>
+        $('#galleryModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget) // Button that triggered the modal
+            var imageSource = button.data('image') // Extract info from data-* attributes
+            // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+            // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+            var modal = $(this)
+            modal.find('.modal-body img').attr("src", imageSource)
+        })
+    </script>
 </body>
 
 </html>
