@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo:400,700|Roboto:400,700|Montserrat:400,700&display=swap');
+
 html {
     font-size: 100%;
 }
@@ -66,6 +67,8 @@ h5, h6 {
     text-align: center;
 }
 
+/* At medium+ resolutions, container div justify-content is flex-start, so left align the text
+   to bring it closer to the logo */
 @media(min-width: 768px) {
     .company-name>h1 {
         text-align: left;
@@ -76,6 +79,9 @@ h5, h6 {
     justify-content: center;
 }
 
+
+/* If content is centred at these resolutions, the company name is too far away from the logo. So 
+   make sure it's flex-start to keep it close to the logo */
 @media(min-width: 768px) {
     .company-name {
         justify-content: flex-start;
@@ -87,7 +93,6 @@ h5, h6 {
 }
 
 .slogan {
-    /* display: block; */
     margin-bottom: 1.143rem;
     font-weight: 700;
 }
@@ -156,6 +161,7 @@ in the header */
     margin-right: auto;
 }
 
+/* Pull logo to the right when sharing a row with another col */
 @media(min-width: 768px) {
     .logo img {
         margin-right: 0;
@@ -331,13 +337,6 @@ in the header */
     padding-bottom: 3rem;
 }
 
-/* Push down text content when gallery is displayed */
-
-/* @media(min-width: 768px) {
-    .text-content {
-        padding-top: 5rem;
-    }
-} */
 
 .text-content p i {
     color: #9E8956;
