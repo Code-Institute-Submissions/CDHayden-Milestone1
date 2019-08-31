@@ -38,32 +38,35 @@ Wireframes come in two flavours. One for desktop and tablet (the layout was desi
 ### User stories 
 
 **Site Owner**
-- As a site owner I want to show photos of my work, to demonstrate my quality of work.
+1. As a site owner I want to show photos of my work, to demonstrate my quality of work.
 
-- As a site owner I want to show good reviews I have received, to encourage other external users to hire me.
+2. As a site owner I want to show good reviews I have received, to encourage other external users to hire me.
 
-- As a site owner I want to encourage users to contact me, so that I can build a good relationship with them.
+3. As a site owner I want to encourage users to contact me, so that I can build a good relationship with them.
 
 **External User**
-- As an external user I want to see what services D.W Home improvements offer, so that I can see if they are suitable for my needs.
+4. As an external user I want to see what services D.W Home improvements offer, so that I can see if they are suitable for my needs.
 
-- As an external user I want to quickly and easily contact D.W Home Improvements to get a quote, so that I can decide if it is affordable.
+5. As an external user I want to quickly and easily contact D.W Home Improvements to get a quote, so that I can decide if it is affordable.
 
-- As an external user I want to see examples of work done by D.W Home Improvements so that I can judge if they are done well.
+6. As an external user I want to see examples of work done by D.W Home Improvements so that I can judge if they are done well.
 
-- As an external user I want to read reviews of work done by D.W Home Improvements so I am able to judge if they are trust worthy and offer a good experience. 
-
+7. As an external user I want to read reviews of work done by D.W Home Improvements so I am able to judge if they are trust worthy and offer a good experience. 
 
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
- 
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
+- Image gallery - allows external users to achieve user story 6, by giving them photos of work carried out and the ability to click on them and view a larger image.
 
-**TODO** Finish this section
+- Embedded video - allows external users to achieve user story 6, by giving them a video of work carried out by the company.
+
+- Contact form - allows external users to achieve user story 5, by giving them a way to contact the company via the website.
+
+- Contact detail hyperlinks in the header and footer - allows external users to achieve users story 5, by giving them easy ways to navigate to social media and call or email the company.
+
+- Reviews on each service page - allows external users to achieve user story 7, by being able to read what other people say about the company and see a star rating (out of 5).
+
 
 ### Features Left to Implement
 - A call to action button that sticks to the bottom right of the page which when clicked opens a form enabling the user to contact the company.
@@ -119,10 +122,6 @@ Used to provide a repeating background image for the header of the site.
 - [https://jquery.com/](https://jquery.com/)
 JQuery was used to dynamically change the content of a modal depending on what photo was clicked. The code for this was taken and slightly modified from the bootstrap documentation on modals.
 
-
-
-
-
 ## Testing
 
 **TODO** Flesh this section out more.
@@ -139,9 +138,6 @@ You can view the deployed site here: [https://cdhayden.github.io/Milestone1/](ht
 To deploy this site my local git repository was pushed to a github repository and then hosted on github pages. 
 
 ### How do I run this locally?
-
-
-
 
 ## Credits
 
