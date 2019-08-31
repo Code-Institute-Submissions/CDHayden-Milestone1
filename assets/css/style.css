@@ -293,6 +293,12 @@ in the header */
     background-color: #E4E5E9;
 }
 
+.main-content a, .main-content a:hover {
+    color: #9E000B;
+    font-weight: 700;
+    text-decoration: none;
+}
+
 /* ------------------------------------------ CONTACT */
 
 .form-wrapper {
