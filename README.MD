@@ -15,6 +15,8 @@ After taking in the considerations of the company owner and researching various 
 
 I decided against using a single scrolling page as at some point in the future the site owner may want to add more services. I feel that the Family Tree navigation lends itself well to what the site owner wants.
 
+The colour scheme used was initially created by using [colormind](http://colormind.io/bootstrap/) and then tweaked using [Contrast Checker](https://webaim.org/resources/contrastchecker/) to ensure sufficient contrast. 
+
 
 
 ### User stories 
@@ -127,6 +129,7 @@ Used to provide a repeating background image for the header of the site.
 JQuery was used to dynamically change the content of a modal depending on what photo was clicked. The code for this was taken and slightly modified from the bootstrap documentation on modals.
 - [https://realfavicongenerator.net](https://realfavicongenerator.net)
 Used to generate the various favicons and html code needed to use them.
+
 ## Testing
 
 The project was continually tested throughout development via chrome developer tools. This allowed me to view my site at various responsive breakpoints and tweak the HTML / CSS in the browser. 
@@ -152,6 +155,8 @@ I also manually tested certain aspects of my site once development had finished:
 
 ### Bugs / Problems
 Initially I had trouble correctly positioning the review "media" objects on each of my service pages. After speaking with my mentor it was identifed as having incorrectly using the bootstrap grid (rows nested in rows nested rows...). The simpler layout suggested by my mentor helped me to achieve the positioning I wanted.
+
+There seems to be an error accessing the favicon resources when the site is deployed on github pages that I don't experience on my local machine. I have, as of yet, been able to fix this issue.
 
 ## Deployment
 You can view the deployed site here: [https://cdhayden.github.io/Milestone1/](https://cdhayden.github.io/Milestone1/)
