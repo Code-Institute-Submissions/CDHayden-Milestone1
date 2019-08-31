@@ -13,6 +13,10 @@ However, it is also important that external users of the site have a positive us
 
 After taking in the considerations of the company owner and researching various other home improvement business websites I decided to put the contact details for the company in the header. As this was the main call to action required and seemed common place whilst doing some "market research".
 
+I decided against using a single scrolling page as at some point in the future the site owner may want to add more services. I feel that the Family Tree navigation lends itself well to what the site owner wants.
+
+
+
 ### User stories 
 
 **Site Owner**
