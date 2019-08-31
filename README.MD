@@ -5,12 +5,24 @@
 
 A mobile first fully responsive website for a new home improvement start up. This website allows potential customers to view services offered by CH Home Improvement, read reviews and see examples of their work.
 
- 
 ## UX
 
 This website is primarily for the company owner of CH Home Improvement. The owner would like the website to help potential customers contact them with the aim of increasing business. 
 
 However, it is also important that external users of the site have a positive user experience and so their considerations should be taken into account as well.
+
+After taking in the considerations of the company owner and researching various other home improvement business websites I decided to put the contact details for the company in the header. As this was the main call to action required and seemed common place whilst doing some "market research".
+
+### Wireframes
+
+Wireframes come in two flavours. One for desktop and tablet (the layout was designed to be the same albeit responsive)and one for mobile. Two pages, groundwork and tiling, were designed to have the same layout and so share the same wireframe.
+
+**Desktop and tablet wireframes**
+
+- [Index.html](assets/images/wireframes/index-desktop-tablet.png)
+- [Contact.html](assets/images/wireframes/contact-desktop-tablet.png)
+- [Painting.html](assets/images/wireframes/painting-desktop-tablet.png)
+- [Groundwork.html And Tiling.html](assets/images/wireframes/groundwork-desktop-tablet AND tiling-desktop-tablet.png)
 
 
 ### User stories 
@@ -31,9 +43,7 @@ However, it is also important that external users of the site have a positive us
 
 - As an external user I want to read reviews of work done by D.W Home Improvements so I am able to judge if they are trust worthy and offer a good experience. 
 
-### Wireframes
 
-**TODO** Finish wireframes and upload them.
 
 ## Features
 
