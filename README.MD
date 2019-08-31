@@ -13,6 +13,43 @@ However, it is also important that external users of the site have a positive us
 
 After taking in the considerations of the company owner and researching various other home improvement business websites I decided to put the contact details for the company in the header. As this was the main call to action required and seemed common place whilst doing some "market research".
 
+### User stories 
+
+**Site Owner**
+1. As a site owner I want to show photos of my work, to demonstrate my quality of work.
+
+2. As a site owner I want to show good reviews I have received, to encourage other external users to hire me.
+
+3. As a site owner I want to encourage users to contact me, so that I can build a good relationship with them.
+
+**External User**
+
+4. As an external user I want to see what services D.W Home improvements offer, so that I can see if they are suitable for my needs.
+
+5. As an external user I want to quickly and easily contact D.W Home Improvements to get a quote, so that I can decide if it is affordable.
+
+6. As an external user I want to see examples of work done by D.W Home Improvements so that I can judge if they are done well.
+
+7. As an external user I want to read reviews of work done by D.W Home Improvements so I am able to judge if they are trust worthy and offer a good experience. 
+
+## Features
+
+### Existing Features
+- Image gallery - allows external users to achieve user story 6, by giving them photos of work carried out and the ability to click on them and view a larger image.
+
+- Embedded video - allows external users to achieve user story 6, by giving them a video of work carried out by the company.
+
+- Contact form - allows external users to achieve user story 5, by giving them a way to contact the company via the website.
+
+- Contact detail hyperlinks in the header and footer - allows external users to achieve users story 5, by giving them easy ways to navigate to social media and call or email the company.
+
+- Reviews on each service page - allows external users to achieve user story 7, by being able to read what other people say about the company and see a star rating (out of 5).
+
+
+### Features Left to Implement
+- A call to action button that sticks to the bottom right of the page which when clicked opens a form enabling the user to contact the company.
+
+
 ### Wireframes
 
 Wireframes come in two flavours. One for desktop and tablet (the layout was designed to be the same albeit responsive)and one for mobile. Two pages, groundwork and tiling, were designed to have the same layout and so share the same wireframe.
@@ -33,43 +70,6 @@ Wireframes come in two flavours. One for desktop and tablet (the layout was desi
 - [Contact.html](assets/images/wireframes/contact-mobile.png)
 - [Painting.html](assets/images/wireframes/painting-mobile.png)
 - [Groundwork.html-and-Tiling.html](assets/images/wireframes/groundwork-mobile-AND-tiling-mobile.png)
-
-
-### User stories 
-
-**Site Owner**
-1. As a site owner I want to show photos of my work, to demonstrate my quality of work.
-
-2. As a site owner I want to show good reviews I have received, to encourage other external users to hire me.
-
-3. As a site owner I want to encourage users to contact me, so that I can build a good relationship with them.
-
-**External User**
-4. As an external user I want to see what services D.W Home improvements offer, so that I can see if they are suitable for my needs.
-
-5. As an external user I want to quickly and easily contact D.W Home Improvements to get a quote, so that I can decide if it is affordable.
-
-6. As an external user I want to see examples of work done by D.W Home Improvements so that I can judge if they are done well.
-
-7. As an external user I want to read reviews of work done by D.W Home Improvements so I am able to judge if they are trust worthy and offer a good experience. 
-
-
-## Features
-
-### Existing Features
-- Image gallery - allows external users to achieve user story 6, by giving them photos of work carried out and the ability to click on them and view a larger image.
-
-- Embedded video - allows external users to achieve user story 6, by giving them a video of work carried out by the company.
-
-- Contact form - allows external users to achieve user story 5, by giving them a way to contact the company via the website.
-
-- Contact detail hyperlinks in the header and footer - allows external users to achieve users story 5, by giving them easy ways to navigate to social media and call or email the company.
-
-- Reviews on each service page - allows external users to achieve user story 7, by being able to read what other people say about the company and see a star rating (out of 5).
-
-
-### Features Left to Implement
-- A call to action button that sticks to the bottom right of the page which when clicked opens a form enabling the user to contact the company.
 
 ## Technologies Used
 
