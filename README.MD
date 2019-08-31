@@ -24,7 +24,7 @@ Wireframes come in two flavours. One for desktop and tablet (the layout was desi
 - [Index.html-menudrop](assets/images/wireframes/index-desktop-tablet-menu-dropdown.png)
 - [Contact.html](assets/images/wireframes/contact-desktop-tablet.png)
 - [Painting.html](assets/images/wireframes/painting-desktop-tablet.png)
-- [Groundwork.html-and-Tiling.html](assets/images/wireframes/groundwork-desktop-tablet AND tiling-desktop-tablet.png)
+- [Groundwork.html-and-Tiling.html](assets/images/wireframes/groundwork-desktop-tablet-AND-tiling-desktop-tablet.png)
 - [image-modal](assets/images/wireframes/image-modal-desktop.png)
 
 **Mobile wireframes**
@@ -32,7 +32,7 @@ Wireframes come in two flavours. One for desktop and tablet (the layout was desi
 - [Index.html-menudrop](assets/images/wireframes/index-mobile-menu-drop.png)
 - [Contact.html](assets/images/wireframes/contact-mobile.png)
 - [Painting.html](assets/images/wireframes/painting-mobile.png)
-- [Groundwork.html-and-Tiling.html](assets/images/wireframes/groundwork-mobile AND tiling-mobile.png)
+- [Groundwork.html-and-Tiling.html](assets/images/wireframes/groundwork-mobile-AND-tiling-mobile.png)
 
 
 ### User stories 
