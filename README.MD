@@ -121,15 +121,33 @@ Used to make sure that browser specific prefixes were used for CSS.
 Used to provide a repeating background image for the header of the site.
 - [https://jquery.com/](https://jquery.com/)
 JQuery was used to dynamically change the content of a modal depending on what photo was clicked. The code for this was taken and slightly modified from the bootstrap documentation on modals.
-
+- [https://realfavicongenerator.net](https://realfavicongenerator.net)
+Used to generate the various favicons and html code needed to use them.
 ## Testing
 
-**TODO** Flesh this section out more.
-* Used browserling to test in the lastest version of the different main browsers.
-* Manually tested features of the site:
-	* Contact form + validation
-	* Groundwork gallery modal 
-* Tested how it looked on different screen sizes via chrome developer tools,
+The project was continually tested throughout development via chrome developer tools. This allowed me to view my site at various responsive breakpoints and tweak the HTML / CSS in the browser. 
+
+At the end of the project I used browserling to test my site in the latest version of the different main browsers. Namely firefox, opera, safari and internet explorer.
+
+I also manually tested certain aspects of my site once development had finished:
+
+- I made sure css effects behaved as expected for:
+    - Hover effects:
+	    - For the footer icons
+		- For images in the galleries on tiling.html and groundwork.html
+		- For the menu items in the main navigation bar
+	- Media queries:
+		- When aligning the header elements I had to apply different styles at different responsive breakpoints. I made sure these were mobile first and had the intended outcome.
+
+- Form validation on the contact page:
+	- Trying to submit an empty form
+	- Trying to provide an incorrect email address
+
+- The image galleries on the tiling and groundwork pages behaved as expected:
+	- Clicking each image to make sure the correct image was loaded into the modal.
+
+### Bugs / Problems
+Initially I had trouble correctly positioning the review "media" objects on each of my service pages. After speaking with my mentor it was identifed as having incorrectly using the bootstrap grid (rows nested in rows nested rows...). The simpler layout suggested by my mentor helped me to achieve the positioning I wanted.
 
 ## Deployment
 You can view the deployed site here: [https://cdhayden.github.io/Milestone1/](https://cdhayden.github.io/Milestone1/)
@@ -138,6 +156,14 @@ You can view the deployed site here: [https://cdhayden.github.io/Milestone1/](ht
 To deploy this site my local git repository was pushed to a github repository and then hosted on github pages. 
 
 ### How do I run this locally?
+
+You will need to download the repository: 
+
+1. Open the [repository](https://github.com/CDHayden/Milestone1)
+2. At the top of the page click the "Clone or download button
+3. Select the "Download Zip" option.
+4. Once downloaded, extract the files into a folder of your choice.
+5. Open the folder you extracted the files to and open "index.html" in your browser.
 
 ## Credits
 
@@ -148,6 +174,7 @@ To deploy this site my local git repository was pushed to a github repository an
 
 Thank you to my mentor Reuben Ferrente for his time and valuable feedback and advice.
 
+Thank you to (Anthony)[https://github.com/auxfuse/Milestone1] for creating a collection of very useful resources.
 
 ### I received inspiration for this project from 
 - [Granada Home Improvements](https://www.granadahome.com)
